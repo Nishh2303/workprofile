@@ -35,7 +35,7 @@ export default function Home() {
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="/api/work-profile"
+              href="/work-profile.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-cyan-300"
@@ -43,7 +43,7 @@ export default function Home() {
               Open Full Profile
             </a>
             <a
-              href="/api/work-profile"
+              href="/work-profile.pdf"
               download
               className="rounded-full border border-slate-400/50 px-6 py-3 text-sm font-semibold text-slate-100 transition hover:border-cyan-300 hover:text-cyan-200"
             >
@@ -73,7 +73,7 @@ export default function Home() {
           </div>
           <div className="overflow-hidden rounded-2xl border border-white/10 bg-slate-950">
             <object
-              data="/api/work-profile#toolbar=1&navpanes=0&scrollbar=1"
+              data="/work-profile.pdf#toolbar=1&navpanes=0&scrollbar=1"
               type="application/pdf"
               className="h-[75vh] w-full"
               aria-label="Work Profile PDF"
@@ -85,7 +85,7 @@ export default function Home() {
                 </p>
                 <div className="flex flex-wrap justify-center gap-3">
                   <a
-                    href="/api/work-profile"
+                    href="/work-profile.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="rounded-full bg-cyan-400 px-5 py-2 text-sm font-semibold text-slate-950 transition hover:bg-cyan-300"
@@ -93,7 +93,7 @@ export default function Home() {
                     Open PDF
                   </a>
                   <a
-                    href="/api/work-profile"
+                    href="/work-profile.pdf"
                     download
                     className="rounded-full border border-slate-400/50 px-5 py-2 text-sm font-semibold text-slate-100 transition hover:border-cyan-300 hover:text-cyan-200"
                   >
