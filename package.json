@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prebuild": "cp 'Work Profile (1).pdf' public/work-profile.pdf"
   },
   "dependencies": {
     "next": "16.1.6",
